@@ -1,0 +1,52 @@
+body{
+    background-color:aqua;
+    background-size: 100%;
+}
+body {
+	color: white;
+	font-family: Segoe ul;
+	margin: 0px;
+	padding: 0px;
+	 background-color: #19181A;
+  
+   
+}
+
+.navigation {
+	position: sticky;
+	top: 0;
+}
+
+.navigation ul {
+	list-style-type: none;
+	margin: 0 40px 0 150px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navigation li {
+	font-size: 15px;
+	float: left;
+}
+/*Button color*/
+.navigation li a {
+	display: block;
+	color: white;
+	padding: 10px 40px;
+	background-color:none;
+	text-decoration: none;
+}
+
+.navigation li a:hover {
+	color: blue;
+	border-bottom: 3px solid #DFDFDF;
+	background-color: #DFDFDF;
+}
+
+.profil{
+    width: 300px;
+    height: 300px;
+    margin-left:500px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
